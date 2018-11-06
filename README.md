@@ -8,9 +8,9 @@ A wrapper component connect Socket.io to React.
 `npm i react-socket.io --save`
 
 
-## Usage
+# Usage
 
-# Set Socket Host
+### Set Socket Host
 
 ```javascript
 import React from 'react';
@@ -26,7 +26,7 @@ ReactDOM.render(
 );
 ```
 
-# Get the socket props on component
+### Get the socket props on component
 
 ```javascript
 import React, { Component } from 'react';
