@@ -1,6 +1,6 @@
 {
-  "name": "react-socket.io",
-  "version": "1.0.0",
+  "name": "reactjs-socket.io",
+  "version": "1.0.1",
   "description": "A wrapper component connect Socket.io to React",
   "main": "dist/bundle.js",
   "scripts": {

@@ -5,7 +5,7 @@ A wrapper component connect Socket.io to React.
 ## Installation
 
 #### npm
-`npm i react-socket.io --save`
+`npm i reactjs-socket.io --save`
 
 
 # Usage
@@ -15,7 +15,7 @@ A wrapper component connect Socket.io to React.
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { socketStore, socketContext } from 'react-socket.io';
+import { socketStore, socketContext } from 'reactjs-socket.io';
 const { Provider } = socketContext;
 const host = socketStore("ws://localhost:9000")
 
@@ -30,7 +30,7 @@ ReactDOM.render(
 
 ```javascript
 import React, { Component } from 'react';
-import { socketConnect } from 'react-socket.io';
+import { socketConnect } from 'reactjs-socket.io';
 
 class App extends Component {
 
