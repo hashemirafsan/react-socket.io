@@ -1,6 +1,6 @@
 {
   "name": "reactjs-socket.io",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wrapper component connect Socket.io to React",
   "main": "dist/bundle.js",
   "scripts": {
@@ -34,6 +34,13 @@
     "webpack-cli": "^3.1.2",
     "webpack": "^4.20.2"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:hashemirafsan/reactjs-socket.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hashemirafsan/reactjs-socket.io/issues"
+  },
+  "author": "Hashemi Rafsan",
   "license": "ISC"
 }
